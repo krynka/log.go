@@ -15,7 +15,7 @@ import (
 // 2025/03/22 17:58:49.512187 [info] message without label
 // 2025/03/22 17:58:49.512192 example.go:41: [TRC] worker-1 user=2000 custom log
 // 2025/03/22 17:58:49.512215 example.go:42: [FATAL] worker-1 user=2000 fatal log
-exit status 1
+// exit status 1
 func main() {
 	origLog := log.New()
 
